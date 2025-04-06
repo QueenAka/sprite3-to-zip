@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs");
 const AdmZip = require("adm-zip");
 
-const sprite = "cards";
+const sprite = "SPRITE_NAME_HERE";
 const filePath = path.join(__dirname, `${sprite}.sprite3`);
 const outputDir = path.join(__dirname, sprite);
 
